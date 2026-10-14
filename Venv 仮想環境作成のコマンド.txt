@@ -68,7 +68,7 @@ pip install gradio  opencv-python shapely numpy matplotlib
 
 python プロンプト（以下）に
 
-(venv) C:\work\FactoryLayout>
+(venv) C:\work\Gradio_test>
 
 以下を入力
 
@@ -99,3 +99,19 @@ git remote add origin https://github.com/Mike19680803/Gradio_test_web.git
 紐づけ完了後、以下コマンドでプッシュを実行します。
 
 git push origin main
+
+
+
+以降は、(venv) 環境下でフォルダ
+C:\work\Gradio_test　内のファイルを変更したら以下のコマンドで
+
+ローカルリポジトリの更新、GitHub に反映　を行う。
+
+
+git add .[ent]
+git commit -m "コメント文"[ent]
+git push origin main[ent]
+
+
+以上
+
