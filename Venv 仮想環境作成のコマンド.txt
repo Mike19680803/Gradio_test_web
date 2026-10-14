@@ -72,5 +72,9 @@ python プロンプト（以下）に
 
 以下を入力
 
+pip freeze > requirements.txt
 
+
+git add .[ent]  ← [space]+ピリオド　を git add末尾につけると、
+フォルダ内の全ファイルが git add 対象になる)
 
