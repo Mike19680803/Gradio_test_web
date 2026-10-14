@@ -1,0 +1,76 @@
+py仮想環境の作成
+
+C:\Users\E933065>cd c:\work\gradio_test
+
+
+1回目のみ実施。
+
+Gradio_test フォルダ以下を Git管理に指定
+
+c:\work\Gradio_test>git init
+Initialized empty Git repository in C:/work/Gradio_test/.git/
+
+
+*************  重要  ****************:
+
+フォルダ　c:\work\Gradio_test　を　git add,  "する前に"  .gitignore　ファイルを記述すること。
+
+.gitignore　ファイルを記述し、
+このあと　Gradio_test　フォルダ下に作る ".Venv" フォルダを
+あらかじめ　Git管理から除外
+
+c:\work\Gradio_test>curl -o .gitignore [ent]
+https://raw.githubusercontent.com/github/gitignore/main/Global/VirtualEnv.gitignore
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+100    329 100    329   0      0   1868      0                              0
+
+
+
+
+c:\work\Gradio_test　フォルダ下を、Python 仮想環境に指定。
+
+c:\work\Gradio_test>py -3.10 -m venv venv
+
+Gradio_test　フォルダ下に　".Venv" フォルダが作成される。
+
+1回目のみ実施　　ここまで。
+
+
+
+仮想環境への切り替え
+コマンドプロンプト上でその環境のフォルダ内にある Scripts/activate.bat を実行。
+
+c:\work\Gradio_test\venv\Scripts\activate.bat [ent]
+
+
+仮想環境に切り替わってプロンプトが変わる 
+(venv) c:\work\Gradio_test>
+
+
+python バージョンの確認
+
+(venv) c:\work\Gradio_test>python --version
+Python 3.10.4
+
+
+
+
+
+準備
+
+1回目のみ実施。
+
+pip install gradio  opencv-python shapely numpy matplotlib
+
+ライブラリ群がインストールされる
+
+
+python プロンプト（以下）に
+
+(venv) C:\work\FactoryLayout>
+
+以下を入力
+
+
+
