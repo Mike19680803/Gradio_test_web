@@ -19,8 +19,8 @@ Initialized empty Git repository in C:/work/Gradio_test/.git/
 このあと　Gradio_test　フォルダ下に作る ".Venv" フォルダを
 あらかじめ　Git管理から除外
 
-c:\work\Gradio_test>curl -o .gitignore [ent]
-https://raw.githubusercontent.com/github/gitignore/main/Global/VirtualEnv.gitignore
+c:\work\Gradio_test>curl -o .gitignore https://raw.githubusercontent.com/github/gitignore/main/Global/VirtualEnv.gitignore  [ent]
+
   % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
                                  Dload  Upload  Total   Spent   Left   Speed
 100    329 100    329   0      0   1868      0                              0
@@ -94,6 +94,15 @@ https://github.com/Mike19680803/Gradio_test_web.git
 
 ローカルPC に戻って以下コマンドを実行し、
 ローカルリポジトリとリモートリポジトリを紐づけます。 
+
+
+
+python プロンプト（以下）に
+
+(venv) C:\work\Gradio_test>
+
+以下を入力
+
 git remote add origin https://github.com/Mike19680803/Gradio_test_web.git
 
 紐づけ完了後、以下コマンドでプッシュを実行します。
@@ -107,6 +116,12 @@ C:\work\Gradio_test　内のファイルを変更したら以下のコマンド�
 
 ローカルリポジトリの更新、GitHub に反映　を行う。
 
+
+python プロンプト（以下）に
+
+(venv) C:\work\Gradio_test>
+
+以下を入力
 
 git add .[ent]
 git commit -m "コメント文"[ent]
